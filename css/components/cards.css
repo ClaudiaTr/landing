@@ -1,0 +1,40 @@
+.how-it-works {
+  margin: 20px 0;
+}
+
+.cards  {
+  display: flex;
+  align-items: flex-start;
+  align-content: space-between;
+  text-align: center;
+}
+
+.cards img {
+  block-size: 150px;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.card-left {
+  margin: 0 20px 20px 0;
+  padding: 25px;
+  width: 30%;
+  box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.3);
+  border-radius: 4px;
+}
+
+.card-middle {
+  margin: 0 20px 20px 20px;
+  padding: 25px;
+  width: 30%;
+  box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.3);
+  border-radius: 4px;
+}
+
+.card-right {
+  margin: 0 0 20px 20px;
+  padding: 25px;
+  width: 30%;
+  box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.3);
+  border-radius: 4px;
+}
