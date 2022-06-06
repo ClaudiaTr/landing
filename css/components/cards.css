@@ -1,40 +1,42 @@
 .how-it-works {
-  margin: 20px 0;
+  margin: 50px 0;
+  text-align: center;
 }
 
 .cards  {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   align-content: space-between;
-  text-align: center;
+  max-width: 100%;
 }
 
 .cards img {
-  block-size: 150px;
   align-items: center;
   opacity: 0.7;
+  max-width: 100px;
 }
 
 .card-left {
-  margin: 0 20px 20px 0;
-  padding: 25px;
-  width: 30%;
+  margin: 0 2% 0 0;
+  padding: 25px 7%;
   box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.3);
   border-radius: 4px;
 }
 
 .card-middle {
-  margin: 0 20px 20px 20px;
-  padding: 25px;
-  width: 30%;
+  padding: 25px 7%;
+  box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.3);
+  border-radius: 4px;
+  margin: 0 2%;
+}
+
+.card-right {
+  margin: 0 0 0 2%;
+  padding: 25px 7%;
   box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.3);
   border-radius: 4px;
 }
 
-.card-right {
-  margin: 0 0 20px 20px;
-  padding: 25px;
-  width: 30%;
-  box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.3);
-  border-radius: 4px;
+.card-text {
+  max-width: 150px;
 }
